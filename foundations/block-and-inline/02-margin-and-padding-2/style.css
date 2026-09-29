@@ -4,7 +4,8 @@ body {
 }
 
 .card {
-  width: 400px;
+  padding: 12px;
+  width: 450px;
   background: white;
   margin: 16px auto;
 }
@@ -13,8 +14,23 @@ body {
 .content,
 .button-container {
   background: dodgerblue;
+  margin-bottom: 12px;
+}
+.title {
+  font-size: 16px;
+  padding: 11px;
+}
+.content{
+  padding: 11px 8px;
+}
+.button-container{
+  text-align: center;
+  padding: 5px;
 }
 
 button {
   background: white;
+  margin: 0 auto;
+  display: block;
+  padding: 10px;
 }
